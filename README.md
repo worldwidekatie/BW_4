@@ -1,6 +1,6 @@
 # BW_4
 
-## For current up-to-date instructions, see the [Post Here MVP Algorithm Instructions](https://github.com/worldwidekatie/BW2/blob/master/Subreddit_MVP_Instructions.ipynb)
+## For current up-to-date instructions, see the [Post Here Instructions Notebook](https://github.com/worldwidekatie/BW_4/blob/master/Post_Here_Instructions.ipynb)
 
 # **SFW UPDATES**
 ### * The SFW nearest neighbors can be downloaded [here](https://github.com/worldwidekatie/BW_4/blob/master/nn_cleaned.joblib)
