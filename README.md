@@ -5,3 +5,7 @@
 # **SFW UPDATES**
 ### * The SFW nearest neighbors can be downloaded [here](https://github.com/worldwidekatie/BW_4/blob/master/nn_cleaned.joblib)
 ### * The SFW Tfidf can be downloaded [here](https://github.com/worldwidekatie/BW_4/blob/master/tfidf_cleaned.joblib)
+### * The link for the SFW subreddit data frame is:
+```
+df = pd.read_csv("https://raw.githubusercontent.com/worldwidekatie/BW_4/master/cleaned_subs.csv")
+```
