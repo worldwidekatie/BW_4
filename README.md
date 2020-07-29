@@ -9,3 +9,16 @@
 ```
 df = pd.read_csv("https://raw.githubusercontent.com/worldwidekatie/BW_4/master/cleaned_subs.csv")
 ```
+### * New Prediction Function:
+```
+def predict(title, body):
+  predictions = []
+  query = tfidf.transform([title+body])
+  pred = model.kneighbors(query.todense())
+
+  for i in pred[1][0]:
+    if subreddits[i] not in predictions:
+      predictions.append(subreddits[i])
+  
+  return predictions[:5]
+  ```
